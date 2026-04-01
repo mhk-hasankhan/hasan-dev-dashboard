@@ -1,0 +1,12 @@
+<section id="experience" class="py-20">
+    <h2 class="text-4xl text-primary mb-10">Experience</h2>
+
+    <div class="space-y-6">
+        @foreach (var item in Model)
+        {
+            <div class="bg-card p-6 rounded-xl shadow-lg hover:scale-[1.02] transition">
+                @item
+            </div>
+        }
+    </div>
+</section>

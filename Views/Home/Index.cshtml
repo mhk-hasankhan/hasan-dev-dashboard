@@ -1,0 +1,52 @@
+﻿<section class="h-screen flex flex-col justify-center items-center text-center">
+    
+    <h1 class="text-6xl font-bold tracking-tight">
+        Mohammad Hasan Khan
+    </h1>
+
+    <p class="text-primary mt-4 text-lg">
+        Backend Engineer · Data Science Candidate
+    </p>
+
+    <div class="mt-6 text-gray-400">
+        <span id="typing"></span>
+    </div>
+
+    <a href="#experience" 
+       class="mt-10 px-6 py-3 border border-primary rounded-full hover:bg-primary hover:text-black transition">
+        Explore ↓
+    </a>
+
+</section>
+@await Component.InvokeAsync("Experience")
+
+<section class="py-20">
+    <h2 class="text-4xl text-primary mb-6">The Data Lab</h2>
+
+    <div class="bg-black p-6 rounded-xl border border-gray-700">
+        <pre class="text-green-400 text-sm">
+import torch
+
+model = LSTM()
+prediction = model(data)
+        </pre>
+    </div>
+</section>
+
+<section class="py-20 flex justify-center">
+    <div class="bg-card p-8 rounded-xl w-96 text-center shadow-lg">
+        <h3 class="text-primary text-xl mb-4">Communication</h3>
+
+        <p class="text-lg">English — C2</p>
+        <p class="text-lg text-gray-400">German — B1</p>
+    </div>
+</section>
+<section class="p-10 text-center">
+    <h2 class="text-primary text-2xl">Unlock Resume</h2>
+
+    <div id="puzzle" class="grid grid-cols-3 gap-2 w-40 mx-auto mt-6">
+        <button onclick="press(1)">1</button>
+        <button onclick="press(2)">2</button>
+        <button onclick="press(3)">3</button>
+    </div>
+</section>
